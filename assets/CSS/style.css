@@ -1,0 +1,34 @@
+/*........................................Heading*/
+
+.cta-heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.cta-sub-heading {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-style: bold;
+}
+
+.jumbotron {
+    background-color: transparent;
+    text-align: center;
+}
+
+div div span {
+ background-color: silver;
+}
+
+.cta-hero-img {
+    background-image: url(https://pictures.topspeed.com/IMG/crop_webp/201803/2018-suzuki-gsx-r600-5_1600x0.webp);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
