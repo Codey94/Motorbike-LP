@@ -19,16 +19,30 @@
 
 div div span {
  background-color: silver;
+ padding: 5px;
+ margin: 10px;
 }
 
 .cta-hero-img {
-    background-image: url(https://pictures.topspeed.com/IMG/crop_webp/201803/2018-suzuki-gsx-r600-5_1600x0.webp);
+    background-image: url(https://pictures.topspeed.com/IMG/crop/201910/2020-kawasaki-ninja_650-2_800x0w.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-   
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    background-repeat: no-repeat;
+    
+    max-width: 100%;
+    min-width: 300px;
+    height: auto; 
+}
+
+/*........................................Features*/
+
+.Features {
+    background-color: rgb(139, 133, 133);
+}
+
+.feature-heading {
+    margin-top: 10px;
 }
