@@ -41,6 +41,11 @@ div div span {
 
 .Features {
     background-color: rgb(139, 133, 133);
+    max-height: 100%;
+    max-width: 100%;
+    text-align: center;
+    border: 2px;
+    border-color: lightblue;
 }
 
 .feature-heading {
