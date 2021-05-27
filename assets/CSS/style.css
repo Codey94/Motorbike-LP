@@ -1,15 +1,32 @@
 /*........................................Heading*/
 
+div h3 {
+    text-align: center;
+    background-color: #2a690dd7;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: bold;
+    margin-bottom: 30px;
+}
+
+
+
 .cta-heading {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin-bottom: 30px;
     font-weight: 600;
+    padding: 20px;
+    background-color: #2a690dd7;
+    text-align: center;
 }
 
 .cta-sub-heading {
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
     font-style: bold;
+    padding: 20px;
+    text-align: center;
+
 }
 
 .jumbotron {
@@ -17,24 +34,38 @@
     text-align: center;
 }
 
-div div span {
+.cta-span {
  background-color: silver;
  padding: 5px;
  margin: 10px;
+ text-align: center;
+ 
 }
 
 .cta-hero-img {
-    background-image: url(https://pictures.topspeed.com/IMG/crop/201910/2020-kawasaki-ninja_650-2_800x0w.jpg);
+    background-image: url(/assets/IMGs/Kawasaki-Ninja-H2-2019.jpg);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     position: relative;
     background-repeat: no-repeat;
+    background-position: center;
     
     max-width: 100%;
-    min-width: 300px;
-    height: auto; 
+    height: auto;
+}
+
+.cta-sign-up-btn {
+    position: relative;
+    text-align: center;
+    background-color: #2a690d;
+    margin-bottom: 30px;
+    
+}
+
+.cta-box {
+    text-align: center;
 }
 
 /*........................................Features*/
